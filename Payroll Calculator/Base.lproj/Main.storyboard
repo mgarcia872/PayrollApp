@@ -17,15 +17,38 @@
                     <view key="view" contentMode="scaleToFill" id="aAo-xH-f8m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P2T-ER-Us7">
+                                <rect key="frame" x="25" y="188" width="325" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" textContentType="name"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create a new statement by filling out the form below" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8M-V0-Xl6">
+                                <rect key="frame" x="25" y="77" width="325" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBz-Wb-lRe">
+                                <rect key="frame" x="25" y="154" width="93" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.16078431369999999" green="0.50196078430000002" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ipP-gF-DG3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIX-A2-p9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1570" y="-430"/>
+            <point key="canvasLocation" x="1568.8" y="-430.43478260869568"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="UMv-zS-z4c">
             <objects>
                 <viewController id="e3a-ve-bTF" sceneMemberID="viewController">
@@ -49,6 +72,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="newStatementButtonPressed:" destination="fsb-8h-PW7" eventType="touchUpInside" id="MHT-Cn-xi7"/>
                                     <segue destination="cqi-4e-1Re" kind="show" id="38o-Nw-eLx"/>
                                 </connections>
                             </button>
@@ -68,9 +92,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Zmc-TB-o4v"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ZKc-Vn-2em"/>
+                    <navigationItem key="navigationItem" title="Home" id="ZKc-Vn-2em"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DC4-q3-Un8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="fsb-8h-PW7" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="710" y="-76"/>
         </scene>
