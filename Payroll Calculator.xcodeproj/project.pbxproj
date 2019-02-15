@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9252E46220F7C5A00F5B6E2 /* EmployeeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9252E45220F7C5A00F5B6E2 /* EmployeeClass.swift */; };
 		F92DBBEF220D1CAB00BB028B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92DBBEE220D1CAB00BB028B /* AppDelegate.swift */; };
 		F92DBBF1220D1CAB00BB028B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92DBBF0220D1CAB00BB028B /* ViewController.swift */; };
 		F92DBBF4220D1CAB00BB028B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92DBBF2220D1CAB00BB028B /* Main.storyboard */; };
 		F92DBBF6220D1CAC00BB028B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92DBBF5220D1CAC00BB028B /* Assets.xcassets */; };
-		F92DBBF9220D1CAC00BB028B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92DBBF7220D1CAC00BB028B /* LaunchScreen.storyboard */; };
+		F92DBC0C220F291C00BB028B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9252E45220F7C5A00F5B6E2 /* EmployeeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeClass.swift; sourceTree = "<group>"; };
 		F92DBBEB220D1CAB00BB028B /* Payroll Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Payroll Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92DBBEE220D1CAB00BB028B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F92DBBF0220D1CAB00BB028B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F92DBBF3220D1CAB00BB028B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F92DBBF5220D1CAC00BB028B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F92DBBF8220D1CAC00BB028B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F92DBBFA220D1CAC00BB028B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 				F92DBBF0220D1CAB00BB028B /* ViewController.swift */,
 				F92DBBF2220D1CAB00BB028B /* Main.storyboard */,
 				F92DBBF5220D1CAC00BB028B /* Assets.xcassets */,
-				F92DBBF7220D1CAC00BB028B /* LaunchScreen.storyboard */,
 				F92DBBFA220D1CAC00BB028B /* Info.plist */,
+				F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */,
+				F9252E45220F7C5A00F5B6E2 /* EmployeeClass.swift */,
 			);
 			path = "Payroll Calculator";
 			sourceTree = "<group>";
@@ -122,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F92DBBF9220D1CAC00BB028B /* LaunchScreen.storyboard in Resources */,
 				F92DBBF6220D1CAC00BB028B /* Assets.xcassets in Resources */,
 				F92DBBF4220D1CAB00BB028B /* Main.storyboard in Resources */,
 			);
@@ -135,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9252E46220F7C5A00F5B6E2 /* EmployeeClass.swift in Sources */,
+				F92DBC0C220F291C00BB028B /* DetailsViewController.swift in Sources */,
 				F92DBBF1220D1CAB00BB028B /* ViewController.swift in Sources */,
 				F92DBBEF220D1CAB00BB028B /* AppDelegate.swift in Sources */,
 			);
@@ -149,14 +153,6 @@
 				F92DBBF3220D1CAB00BB028B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F92DBBF7220D1CAC00BB028B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F92DBBF8220D1CAC00BB028B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
